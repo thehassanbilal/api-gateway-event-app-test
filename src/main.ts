@@ -10,7 +10,6 @@ async function bootstrap() {
     options: { port: 3001 },
   });
 
-  await app.startAllMicroservices();
   await app.listen(3000);
   console.log('API Gateway is listening on port 3000');
 }
